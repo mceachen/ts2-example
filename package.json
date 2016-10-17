@@ -2,7 +2,8 @@
   "name": "ts2-example",
   "version": "0.0.1",
   "description": "Example TypeScript 2.0 node module",
-  "main": "lib/index.js",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
     "clean": "rimraf lib",
     "lint": "tslint src/**/*.ts",
