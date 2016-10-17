@@ -1,4 +1,4 @@
-# ts2-npm-example
+# ts2-example
 
 Simple example for publishing a node package with
 
