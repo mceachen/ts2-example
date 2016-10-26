@@ -1,5 +1,5 @@
-import { Student } from './example/Student'
-import { Person } from './example/Person'
+import { Student } from './example/student'
+import { Person } from './example/person'
 
 export * from './example/person'
 export * from './example/student'

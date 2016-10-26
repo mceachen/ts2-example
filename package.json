@@ -1,6 +1,6 @@
 {
   "name": "ts2-example",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Example TypeScript 2.0 node module",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -8,7 +8,8 @@
     "clean": "rimraf lib",
     "lint": "tslint src/**/*.ts",
     "compile": "tsc",
-    "prepublish": "run-s clean lint compile"
+    "prerelease": "run-s clean lint compile",
+    "release": "npm package"
   },
   "files": [
     "lib"
