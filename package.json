@@ -9,7 +9,7 @@
     "lint": "tslint src/**/*.ts",
     "compile": "tsc",
     "prerelease": "run-s clean lint compile",
-    "release": "npm package"
+    "release": "npm publish"
   },
   "files": [
     "lib"
