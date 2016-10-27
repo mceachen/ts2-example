@@ -7,6 +7,7 @@
   "scripts": {
     "clean": "rimraf lib",
     "lint": "tslint src/**/*.ts",
+    "fmt": "bash -c 'tsfmt -r src/**/*.ts'",
     "compile": "tsc",
     "prerelease": "run-s clean lint compile",
     "release": "npm publish"
